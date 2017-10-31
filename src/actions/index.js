@@ -21,4 +21,5 @@ export function setCompleted(completeGoals){
         type: SET_COMPLETED,
         completeGoals
     }
+    return action;
 }
